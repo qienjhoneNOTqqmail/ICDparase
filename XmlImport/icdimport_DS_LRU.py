@@ -2435,7 +2435,7 @@ class ICDProcess(object):
             )
         )    
 
-def CreateATADictory(workdir):
+def CreateATADictory(workdir):#
     print "workdir is %s" % workdir
     for dir_path,subpaths,files in os.walk(workdir,True):
         if dir_path == workdir:
