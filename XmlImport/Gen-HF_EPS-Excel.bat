@@ -1,0 +1,1 @@
+C:\Python27\python D:\C919Tools\C919_ICD_Processor\XmlImport\icdimport_DS_LRU.py -c  --loglevel=INFO --outdir=D:\C919Tools\BP4.2.2_output\Excel --hfname=HF_EPS_DATA_CONVERT_A,HF_EPS_DATA_CONVERT_B --workdir="D:\BP4.2.2\Model System Elements"

@@ -1,0 +1,142 @@
+VERSION_CONTROL {
+    FILE_NAME = "$RCSfile: cvsheader.inc,v $";
+    REVISION = "$Revision: 1.2 $";
+    AUTHOR = "$Author: bad $";
+    DATE = "$Date: 2006/07/27 12:58:00 $";
+}
+
+IOMAP {
+    INPUTS {
+    }
+
+    TRANSPUTS {
+        AFDX AFDX-1 = {
+            debug {
+            }
+
+            description {
+                comment = "";
+            }
+
+            receiver {
+                vlinks {
+                    virtual-links = {
+                    }
+
+                }
+
+                messages {
+                }
+
+            }
+
+            transmitter {
+                vlinks {
+                    virtual-links = {
+                        link {
+                            linkname = "VL_03_t";
+                            macaddress = "11:22:33:44:55:03";
+                            bag = "8000";
+                            mtu = "500";
+                            interfaces = "3";
+                            redundancy = "0";
+                            subvlcount = "1";
+                            enabled = "1";
+                        }
+
+                    }
+
+                }
+
+                messages {
+                    message {
+                        description {
+                            comment = "MSG3";
+                            link = "VL_03_t";
+                            mac_src = "";
+                            dst_addr = "10.0.0.1";
+                            dst_port = "130";
+                            src_addr = "10.0.0.0";
+                            src_port = "130";
+                            pdu_length = "264";
+                            subvl_id = "0";
+                            trigger = "";
+                            triggermode = "Changed Value";
+                            activate = "";
+                            activatemask = "0xffffffff";
+                            updatemethod = {
+                                tx_rate = "1";
+                                tx_offset = "0";
+                                mode = "Single Msg.";
+                            }
+
+                            PORT_TYPE sampling = {
+                                tx_rate = "100";
+                                tx_offset = "0";
+                            }
+
+                            sent_msgs = "";
+                            sent_bytes = "";
+                            ALIC enable_alic = {
+                                alic_fs_offset = "3";
+                                alic_pos = "-1:0";
+                                alic_crc_type = "ARINC-665";
+                                Mode ei_mask = {
+                                    alic_crc_poly = "0x04c11db7";
+                                    alic_crc_init = "0xffffffff";
+                                    alic_crc_final = "0xffffffff";
+                                    alic_fs_value = "AFDX-01::RAW-TX2-FS";
+                                    alic_value = "AFDX-01::RAW-TX2-CRC";
+                                }
+
+                            }
+
+                            FC no_fc = {
+                            }
+
+                            MSG_CONTENT rawdata = {
+                                MESSAGE_TYPE AFDX = {
+                                }
+
+                                cvtslot = "AFDX-01::RAW-TX3";
+                            }
+
+                            PROT_LAYER ede_layer = {
+                                source_id = "0";
+                                EDE_MGMT not_mgmt_port = {
+                                }
+
+                            }
+
+                        }
+
+                        iomap {
+                        }
+
+                    }
+
+                }
+
+                replay {
+                    network_a {
+                    }
+
+                    network_b {
+                    }
+
+                    network_ab {
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    OUTPUTS {
+    }
+
+}
+

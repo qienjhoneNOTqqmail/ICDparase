@@ -1,0 +1,881 @@
+
+D:\C919Tools\C919_ICD_Processor\Ads2Gen>C:\Python27\python D:\C919Tools\C919_ICD_Processor\Ads2Gen\ADS2CONFIG.py -c -m -s --loglevel=INFO  --outdir=D:\C919Tools\GeneExcelICD\Output\Test\ADS2 --devmap=D:\DeviceMap\SSDL_DEVMAP-4.2-5.2.xlsx --mode=stim --inputtype=Excel --hfname=FDAS_L1,FDAS_L3,FDAS_R3,IMA_DM_L4,IMA_DM_L5,IMA_DM_R4,SYNOPTICMENUAPP_L,SYNOPTICMENUAPP_R,SYNOPTICPAGEAPP_L,SYNOPTICPAGEAPP_R,HF_IDULEFTINBOARD,HF_IDULEFTOUTBOARD,HF_IDUCENTER,HF_IDURIGHTINBOARD,HF_IDURIGHTOUTBOARD,HF_CCD1,HF_CCD2,HF_DCP1,HF_DCP2,HF_EVS,HF_HCU1,HF_HCU2,HF_HPU1,HF_HPU2,HF_ISIS,HF_MCMW1,HF_MCMW2,HF_MKB1,HF_MKB2,HF_RCP,HF_RLS1,HF_RLS2,ECL_L,ECL_R,VIRTUALCONTROLAPP_L,VIRTUALCONTROLAPP_R --workdir="D:\C919Tools\GeneExcelICD\Output\Test" 
+2016-05-05 17:40:18 [INFO_] Start the Ads2 configuration files generate....
+FSIB_DSO80_03,52
+FSIB_DSO80_03,68
+FSIB_DSO80_03,49
+FSIB_DSO80_03,50
+FSIB_DSO80_03,51
+FSIB_DSO80_03,55
+FSIB_DSO80_03,56
+FSIB_DSO80_03,57
+FSIB_DSO80_03,58
+FSIB_DSO80_03,59
+FSIB_DSO80_03,61
+FSIB_DSO80_03,65
+FSIB_DSO80_03,69
+FSIB_DSO80_03,70
+FSIB_DSO80_03,72
+FSIB_DSO80_03,73
+FSIB_DSO80_04,60
+FSIB_DSO80_04,68
+FSIB_DSO80_03,15
+FSIB_DSO80_03,32
+FSIB_DSO80_04,20
+FSIB_DSO80_04,28
+FSIB_DSO80_03,66
+FSIB_DSO80_03,67
+FSIB_DSO80_03,62
+FSIB_DSO80_03,63
+FSIB_DSO80_03,10
+FSIB_DSO80_03,11
+FSIB_DSO80_03,64
+FSIB_DSO80_03,75
+FSIB_DSO80_03,71
+FSIB_DSO80_03,38
+FSIB_DSO80_03,36
+FSIB_DSO80_03,37
+FSIB_DSO80_03,17
+FSIB_DSO80_03,18
+FSIB_DSO80_03,19
+FSIB_DSO80_03,76
+FSIB_DSO80_03,77
+FSIB_DSO80_03,78
+FSIB_DSO80_03,20
+FSIB_DSO80_03,09
+FSIB_DSO80_03,24
+FSIB_DSO80_03,29
+FSIB_DSO80_03,30
+FSIB_DSO80_03
+[('HF_L_NAISWITCH', 'L_NAISwitch.poDISC_NAI_Switch2_OFF', 76), ('HF_L_NAISWITCH', 'L_NAISwitch.poDISC_NAI_Switch2_ON', 77), ('HF_L_NAISWITCH', 'L_NAISwitch.poDISC_NAI_Switch2_AUTO', 78)]
+FSIB_DSO80_03
+[('HF_ENGINEAPU_FIRECNTRLPANEL', 'Engine_APU_FireCntrlPanel.poDISC_RIGHT_ENG_FIRE_EXT_SYS_ARMED', 20), ('HF_ENGINEAPU_FIRECNTRLPANEL', 'Engine_APU_FireCntrlPanel.poDISC_PIT_ACTIVE_CH_B', 9)]
+FSIB_DSO80_03
+[('HF_L_ID', 'L_ID.poDISC_ID_ICE_2', 62), ('HF_L_ID', 'L_ID.poDISC_ID_STATUS_2', 63)]
+FSIB_DSO80_03
+[('HF_ACU', 'ACU.poDISC_CAB_CALL', 75), ('HF_ACU', 'ACU.poDISC_CAB_EMCALL', 71)]
+FSIB_DSO80_03
+[('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_XfeedSOVOpenA', 52), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_LPump2OffA', 68), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_CPump1OffA', 49), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_CPump2OffA', 50), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_RPump1OffA', 51), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_XfeedSOVClosedB', 55), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_DCPumpOnB', 56), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_LPump1OnB', 57), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_LPump2OnB', 58), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_CPump1OnB', 59), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_RPump2OnB', 61), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_RPump1OnB', 65), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_DCPumpOffA', 69), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_LPump1OffA', 70), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_RPump2OffA', 72), ('HF_FUELOVERHEADPANEL', 'FuelOverheadPanel.poDISC_CPump2OnB', 73)]
+FSIB_DSO80_03
+[('HF_MCMW1', 'MCMW1.poDISC_Caut_Ack_B', 66), ('HF_MCMW1', 'MCMW1.poDISC_Warn_Ack_B', 67)]
+FSIB_DSO80_04
+[('HF_MCMW1', 'MCMW1.poDISC_Caut_Ack_A', 20), ('HF_MCMW1', 'MCMW1.poDISC_Warn_Ack_A', 28)]
+FSIB_DSO80_03
+[('HF_R_ID', 'R_ID.poDISC_ID_ICE_1', 10), ('HF_R_ID', 'R_ID.poDISC_ID_STATUS_1', 11)]
+FSIB_DSO80_03
+[('HF_GAGEASSY', 'GAGEASSY.poDISC_WRRS_Low_Level', 64)]
+FSIB_DSO80_03
+[('HF_MCMW2', 'MCMW2.poDISC_Warn_Ack_B', 15), ('HF_MCMW2', 'MCMW2.poDISC_Caut_Ack_B', 32)]
+FSIB_DSO80_04
+[('HF_MCMW2', 'MCMW2.poDISC_Caut_Ack_A', 60), ('HF_MCMW2', 'MCMW2.poDISC_Warn_Ack_A', 68)]
+FSIB_DSO80_03
+[('HF_R_NAISWITCH', 'NAI_Switch1_OFF', 38), ('HF_R_NAISWITCH', 'NAI_Switch1_ON', 36), ('HF_R_NAISWITCH', 'NAI_Switch1_Auto', 37)]
+FSIB_DSO80_03
+[('HF_FUELCONTROLSW_R', 'FuelControlSwitch_R.poDISC_FuelControl', 17), ('HF_FUELCONTROLSW_R', 'StartIgnitionSwitch_R.poDISC_S_I_Switch_Start', 18), ('HF_FUELCONTROLSW_R', 'StartIgnitionSwitch_R.poDISC_S_I_Switch_Norm', 19)]
+FSIB_DSO80_03
+[('HF_CARGO_FIRECNTRLPANEL', 'Cargo_FireCntrlPanel.poDISC_AFT_CARGO_FIRE_EXT_SYS_ARMED', 24), ('HF_CARGO_FIRECNTRLPANEL', 'Cargo_FireCntrlPanel.poDISC_INITIATE_FWD_CARGO_FIRE_EXT_CH_B', 29), ('HF_CARGO_FIRECNTRLPANEL', 'Cargo_FireCntrlPanel.poDISC_INITIATE_AFT_CARGO_FIRE_EXT_CH_B', 30)]
+Coming in Analysis Excel...
+Now Processing FDAS_L1
+2016-05-05 17:40:20 [ERROR] Message: SM_NOI2C_L5.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:21 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:21 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:21 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:21 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:21 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:21 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:21 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:21 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+Now Processing FDAS_L3
+2016-05-05 17:40:23 [ERROR] Message: SM_NOI2C_L3.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:24 [ERROR] the signal can not found msg SM_NOI2C_L3.CCR_Redundancy_Report siglru: SM_NOI2C_L3
+2016-05-05 17:40:24 [ERROR] the signal can not found msg SM_NOI2C_L3.CCR_Redundancy_Report siglru: SM_NOI2C_L3
+2016-05-05 17:40:24 [ERROR] the signal can not found msg SM_NOI2C_L3.CCR_Redundancy_Report siglru: SM_NOI2C_L3
+2016-05-05 17:40:24 [ERROR] the signal can not found msg SM_NOI2C_L3.CCR_Redundancy_Report siglru: SM_NOI2C_L3
+2016-05-05 17:40:24 [ERROR] the signal can not found msg SM_NOI2C_L3.CCR_Redundancy_Report siglru: SM_NOI2C_L3
+2016-05-05 17:40:24 [ERROR] the signal can not found msg SM_NOI2C_L3.CCR_Redundancy_Report siglru: SM_NOI2C_L3
+2016-05-05 17:40:24 [ERROR] the signal can not found msg SM_NOI2C_L3.CCR_Redundancy_Report siglru: SM_NOI2C_L3
+2016-05-05 17:40:24 [ERROR] the signal can not found msg SM_NOI2C_L3.CCR_Redundancy_Report siglru: SM_NOI2C_L3
+Now Processing FDAS_R3
+2016-05-05 17:40:26 [ERROR] Message: SM_NOI2C_R2.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:27 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:27 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:27 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:27 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:27 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:27 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:27 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:27 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:27 [ERROR] Message: FDAS_R3.MSG_FDAS_CPA_CMDS has no vlid, skip
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+2016-05-05 17:40:27 [ERROR] the signal can not found msg FDAS_R3.MSG_FDAS_CPA_CMDS
+Now Processing IMA_DM_L4
+2016-05-05 17:40:28 [ERROR] Message: SM_NOI2C_L2.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+Now Processing IMA_DM_L5
+2016-05-05 17:40:28 [ERROR] Message: SM_NOI2C_L5.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_NOI2C_L5.CCR_Redundancy_Report siglru: SM_NOI2C_L5
+Now Processing IMA_DM_R4
+2016-05-05 17:40:28 [ERROR] Message: SM_I2C_R4.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:28 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+Now Processing SYNOPTICMENUAPP_L
+2016-05-05 17:40:29 [ERROR] Message: SM_NOI2C_L2.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+Now Processing SYNOPTICMENUAPP_R
+2016-05-05 17:40:29 [ERROR] Message: SM_NOI2C_R2.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:29 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+Now Processing SYNOPTICPAGEAPP_L
+2016-05-05 17:40:30 [ERROR] Message: SM_NOI2C_L2.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:31 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:31 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:31 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:31 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:31 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:31 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:31 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+2016-05-05 17:40:31 [ERROR] the signal can not found msg SM_NOI2C_L2.CCR_Redundancy_Report siglru: SM_NOI2C_L2
+Now Processing SYNOPTICPAGEAPP_R
+2016-05-05 17:40:33 [ERROR] Message: SM_NOI2C_R2.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:33 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:33 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:33 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:33 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:33 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:33 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:33 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:33 [ERROR] the signal can not found msg SM_NOI2C_R2.CCR_Redundancy_Report siglru: SM_NOI2C_R2
+2016-05-05 17:40:34 [ERROR] Message: SYNOPTICPAGEAPP_R.MSG_SYN_PAGE_MCAST_OMS_DATA has no vlid, skip
+2016-05-05 17:40:34 [ERROR] the signal can not found msg SYNOPTICPAGEAPP_R.MSG_SYN_PAGE_MCAST_OMS_DATA
+2016-05-05 17:40:34 [ERROR] the signal can not found msg SYNOPTICPAGEAPP_R.MSG_SYN_PAGE_MCAST_OMS_DATA
+Now Processing HF_IDULEFTINBOARD
+2016-05-05 17:40:37 [ERROR] Message: HF_IDULEFTINBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:37 [ERROR] Message: HF_IDULEFTINBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:37 [ERROR] Message: HF_IDULEFTINBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:37 [ERROR] Message: HF_IDULEFTINBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:37 [ERROR] Message: HF_IDULEFTINBOARD.MSG_HDD_CHK_1_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:37 [ERROR] Message: HF_IDULEFTINBOARD.MSG_HDD_CHK_2_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:37 [ERROR] Message: HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429 has no vlid, skip
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_L
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_R
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_L
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_R
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_HDD_CHK_1_A661_BLOCK
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_HDD_CHK_2_A661_BLOCK
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:37 [ERROR] the signal can not found msg HF_IDULEFTINBOARD.MSG_IDU_BARO_PO429
+Now Processing HF_IDULEFTOUTBOARD
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_HDD_CBIC1_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_HDD_CBIC2_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_HDD_CBIC3_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_HDD_CBIC4_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_HDD_CHK_1_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_HDD_CHK_2_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:41 [ERROR] Message: HF_IDULEFTOUTBOARD.MSG_HDD_OMS_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_L
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_R
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_L
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_R
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_HDD_CBIC1_A661_BLOCK
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_HDD_CBIC2_A661_BLOCK
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_HDD_CBIC3_A661_BLOCK
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_HDD_CBIC4_A661_BLOCK
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_HDD_CHK_1_A661_BLOCK
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_HDD_CHK_2_A661_BLOCK
+2016-05-05 17:40:41 [ERROR] the signal can not found msg HF_IDULEFTOUTBOARD.MSG_HDD_OMS_A661_BLOCK
+Now Processing HF_IDUCENTER
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.IDU_CROSSSIDE_MSG has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_ACAS_INFO1_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_ACAS_INFO1_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_ACAS_INFO2_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_ACAS_INFO2_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_DEF_FILE_CONFIG_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_DEF_FILE_CONFIG_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_HDD_CHK_1_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_HDD_CHK_2_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_IDU_BARO_PO429 has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TAWS_HSI_CAPT_A6611_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TAWS_HSI_CAPT_A6611_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TAWS_HSI_FO_A661_MSG_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TAWS_HSI_FO_A661_MSG_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TAWS_ND_CAPT_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TAWS_ND_CAPT_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TAWS_ND_FO_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TAWS_ND_FO_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TCAS_HSI_CAPT_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TCAS_HSI_CAPT_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TCAS_HSI_FO_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TCAS_HSI_FO_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TCAS_ND_CAPT_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TCAS_ND_CAPT_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TCAS_ND_FO_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_TCAS_ND_FO_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_WXR_HSI_CAPT_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_WXR_HSI_CAPT_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_WXR_HSI_FO_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_WXR_HSI_FO_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_WXR_ND_CAPT_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_WXR_ND_CAPT_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_WXR_ND_FO_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:44 [ERROR] Message: HF_IDUCENTER.MSG_WXR_ND_FO_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_FCE_DATA_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.DCAS_MISC_HSP_OUT_MSG_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.IDU_CROSSSIDE_MSG
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.IDU_CROSSSIDE_MSG
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.IDU_CROSSSIDE_MSG
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.IDU_CROSSSIDE_MSG
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.IDU_CROSSSIDE_MSG
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.IDU_CROSSSIDE_MSG
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_ACAS_INFO1_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_ACAS_INFO1_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_ACAS_INFO2_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_ACAS_INFO2_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_DEF_FILE_CONFIG_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_DEF_FILE_CONFIG_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_DEF_FILE_CONFIG_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_DEF_FILE_CONFIG_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_HDD_CHK_1_A661_BLOCK
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_HDD_CHK_2_A661_BLOCK
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_IDU_BARO_PO429
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TAWS_HSI_CAPT_A6611_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TAWS_HSI_CAPT_A6611_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TAWS_HSI_FO_A661_MSG_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TAWS_HSI_FO_A661_MSG_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TAWS_ND_CAPT_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TAWS_ND_CAPT_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TAWS_ND_FO_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TAWS_ND_FO_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TCAS_HSI_CAPT_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TCAS_HSI_CAPT_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TCAS_HSI_FO_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TCAS_HSI_FO_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TCAS_ND_CAPT_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TCAS_ND_CAPT_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TCAS_ND_FO_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_TCAS_ND_FO_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_WXR_HSI_CAPT_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_WXR_HSI_CAPT_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_WXR_HSI_FO_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_WXR_HSI_FO_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_WXR_ND_CAPT_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_WXR_ND_CAPT_A661_BLOCK_ISS_R
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_WXR_ND_FO_A661_BLOCK_ISS_L
+2016-05-05 17:40:44 [ERROR] the signal can not found msg HF_IDUCENTER.MSG_WXR_ND_FO_A661_BLOCK_ISS_R
+Now Processing HF_IDURIGHTINBOARD
+2016-05-05 17:40:47 [ERROR] Message: HF_IDURIGHTINBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:47 [ERROR] Message: HF_IDURIGHTINBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:47 [ERROR] Message: HF_IDURIGHTINBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:47 [ERROR] Message: HF_IDURIGHTINBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:47 [ERROR] Message: HF_IDURIGHTINBOARD.MSG_HDD_CHK_1_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:47 [ERROR] Message: HF_IDURIGHTINBOARD.MSG_HDD_CHK_2_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:47 [ERROR] Message: HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429 has no vlid, skip
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_L
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_R
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_L
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_R
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_HDD_CHK_1_A661_BLOCK
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_HDD_CHK_2_A661_BLOCK
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+2016-05-05 17:40:47 [ERROR] the signal can not found msg HF_IDURIGHTINBOARD.MSG_IDU_BARO_PO429
+Now Processing HF_IDURIGHTOUTBOARD
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_L has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_R has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_HDD_CBIC1_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_HDD_CBIC2_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_HDD_CBIC3_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_HDD_CBIC4_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_HDD_CHK_1_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_HDD_CHK_2_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:51 [ERROR] Message: HF_IDURIGHTOUTBOARD.MSG_HDD_OMS_A661_BLOCK has no vlid, skip
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_L
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_ACAS_INFO1_A661_BLOCK_ISS_R
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_L
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_ACAS_INFO2_A661_BLOCK_ISS_R
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_HDD_CBIC1_A661_BLOCK
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_HDD_CBIC2_A661_BLOCK
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_HDD_CBIC3_A661_BLOCK
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_HDD_CBIC4_A661_BLOCK
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_HDD_CHK_1_A661_BLOCK
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_HDD_CHK_2_A661_BLOCK
+2016-05-05 17:40:51 [ERROR] the signal can not found msg HF_IDURIGHTOUTBOARD.MSG_HDD_OMS_A661_BLOCK
+Now Processing HF_CCD1
+Now Processing HF_CCD2
+Now Processing HF_DCP1
+Now Processing HF_DCP2
+Now Processing HF_EVS
+********1*********
+********2*********
+********60*********
+********114*********
+********115*********
+********116*********
+********117*********
+********122*********
+********123*********
+********124*********
+********125*********
+********175*********
+********270*********
+********271*********
+********277*********
+********353*********
+********354*********
+********355*********
+********356*********
+********357*********
+********360*********
+********361*********
+********362*********
+Now Processing HF_HCU1
+Now Processing HF_HCU2
+Now Processing HF_HPU1
+********127*********
+********150*********
+********260*********
+********101*********
+********103*********
+********146*********
+********356*********
+********357*********
+Now Processing HF_HPU2
+********127*********
+********150*********
+********260*********
+********101*********
+********103*********
+********146*********
+********356*********
+********357*********
+Now Processing HF_ISIS
+********155*********
+********156*********
+********157*********
+Now Processing HF_MCMW1
+Now Processing HF_MCMW2
+Now Processing HF_MKB1
+Now Processing HF_MKB2
+Now Processing HF_RCP
+Now Processing HF_RLS1
+Now Processing HF_RLS2
+Now Processing ECL_L
+Now Processing ECL_R
+Now Processing VIRTUALCONTROLAPP_L
+2016-05-05 17:40:54 [ERROR] Message: SM_I2C_L4.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_L4.CCR_Redundancy_Report siglru: SM_I2C_L4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_L4.CCR_Redundancy_Report siglru: SM_I2C_L4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_L4.CCR_Redundancy_Report siglru: SM_I2C_L4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_L4.CCR_Redundancy_Report siglru: SM_I2C_L4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_L4.CCR_Redundancy_Report siglru: SM_I2C_L4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_L4.CCR_Redundancy_Report siglru: SM_I2C_L4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_L4.CCR_Redundancy_Report siglru: SM_I2C_L4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_L4.CCR_Redundancy_Report siglru: SM_I2C_L4
+Now Processing VIRTUALCONTROLAPP_R
+2016-05-05 17:40:54 [ERROR] Message: SM_I2C_R4.CCR_Redundancy_Report has no vlid, skip
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+2016-05-05 17:40:54 [ERROR] the signal can not found msg SM_I2C_R4.CCR_Redundancy_Report siglru: SM_I2C_R4
+Leaving Analysis Excel...
+input vl : 512
+
+output vl : 285
+
+IMA_DM_R4:  8
+RGW12_A429_In:  1
+RGW03_A429_In:  9
+RGW06_Analog_In:  2
+NTM_R3:  2
+HF_FCM_1:  6
+RGW11_Analog_In:  2
+HF_FCM_3:  6
+HF_IDUCENTER:  12
+HF_RPDU_UP_1B:  6
+RGW15_A429_In:  3
+HF_FADEC_L_CHA:  4
+HF_AHMUINSTANCE:  1
+HF_FADEC_R_CHB:  4
+HF_RPDU_UP_1A:  6
+HF_IDULEFTOUTBOARD:  12
+FDAS_R3:  9
+RGW14_A429_In:  3
+APP_FMS_CORE_1:  11
+HF_IDURIGHTINBOARD:  11
+RGW09_Analog_In:  2
+RGW05_A429_In:  5
+RGW04_Analog_In:  3
+HM_L1:  1
+HM_R1:  1
+RGW03_Analog_In:  6
+APP_FMS_NAV_1:  1
+APP_FMS_NAV_2:  1
+OMSCockpitDisplayApp:  3
+APP_FMS_CORE_2:  9
+RGW01_A825_In:  2
+IMA_DM_L4:  8
+HF_IDULEFTINBOARD:  11
+APP_FMS_DATALINK_2:  10
+RGW05_Analog_In:  3
+APP_FMS_DATALINK_1:  8
+RGW01_Analog_In:  1
+RGW04_A825_In:  1
+APP_FMS_GUIDANCE_1:  1
+RGW06_A825_In:  1
+APP_FMS_TUNE_1:  12
+VIRTUALCONTROLAPP_L:  6
+HF_FCM_2:  6
+HF_FADEC_R_CHA:  4
+VIRTUALCONTROLAPP_R:  6
+FDAS_L1:  9
+RGW10_A429_In:  14
+RGW15_Analog_In:  1
+HF_FADEC_L_CHB:  4
+FDAS_L3:  9
+RGW02_Analog_In:  1
+SYNOPTICPAGEAPP_R:  7
+IMA_DM_L5:  8
+RGW06_A429_In:  12
+NTM_L1:  2
+RGW09_A429_In:  15
+HF_RPDU_UP_2B:  7
+SYNOPTICPAGEAPP_L:  7
+RGW07_A429_In:  12
+APP_FMS_TUNE_2:  12
+RGW08_Analog_In:  1
+RGW16_A429_In:  1
+SYNOPTICMENUAPP_L:  7
+RGW08_A429_In:  13
+RGW10_Analog_In:  2
+RGW02_A825_In:  2
+HF_ISSPROCESSINGUNIT_R:  51
+RGW01_A429_In:  1
+HF_IDURIGHTOUTBOARD:  11
+RGW07_Analog_In:  1
+RGW16_Analog_In:  1
+APP_FMS_GUIDANCE_2:  1
+HF_RPDU_UP_2A:  7
+RGW12_Analog_In:  1
+HF_ISSPROCESSINGUNIT_L:  50
+NTM_L4:  2
+HF_IMASYS_TEST_PORT:  2
+RGW02_A429_In:  1
+SYNOPTICMENUAPP_R:  7
+['HF_EVS', 'HF_HPU1', 'HF_HPU2', 'HF_ISIS', 'RGW01_A664_In', 'RGW02_A664_In']
+come int###########
+come int###########
+LRU: RGW01_A664_In len of devlist is 2
+LRU: RGW02_A664_In len of devlist is 0
+LRU: HF_HPU1 len of devlist is 0
+LRU: HF_HPU2 len of devlist is 0
+come int###########
+LRU: HF_EVS len of devlist is 1
+come int###########
+LRU: HF_ISIS len of devlist is 1
+ADS2 CFG Generate OK

@@ -1,0 +1,1 @@
+C:\Python27\python D:\test_equipment_configuration\C919_ICD_Processor\XmlImport\icdimport_DS_LRU.py -c   --loglevel=INFO --outdir=D:\test_equipment_configuration\ICD_output\BP4.2.3\HM --hfname=HM_L1,HM_R1 --workdir="D:\test_equipment_configuration\ICD_XML_4.2.3.1\Model System Elements"

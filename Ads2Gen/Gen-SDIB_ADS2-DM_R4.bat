@@ -1,0 +1,1 @@
+C:\Python27\python D:\C919Tools\C919_ICD_Processor\Ads2Gen\ADS2CONFIG.py -c -m  --loglevel=INFO  --outdir=D:\C919Tools\BP4.3_output\ADS2\DMR4_SIM --mode=sim --inputtype=Excel --hfname=IMA_DM_R4 --workdir="D:\C919Tools\BP4.3_output\Excel"

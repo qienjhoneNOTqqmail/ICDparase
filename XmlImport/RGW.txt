@@ -1,0 +1,553 @@
+
+D:\C919Tools\C919_ICD_Processor\XmlImport>C:\Python27\python D:\C919Tools\C919_ICD_Processor\XmlImport\icdimport_DS_LRU.py -c   --loglevel=INFO --outdir=D:\C919Tools\GeneExcelICD\Output\Test --hfname=HF_RIU_1,HF_TCP_3,HF_EMPC_EPS,HF_CARGO_FIRECNTRLPANEL,HF_ENGINEAPU_FIRECNTRLPANEL,HF_FUELOVERHEADPANEL,HF_L_ID,HF_R_ID,HF_L_NAISWITCH,HF_R_NAISWITCH,HF_WHCA,HF_GAGEASSY,HF_MCMW1,HF_MCMW2,HF_LGCU2,HF_AIR_COND_CPA,HF_DIM_CTRL_PWR,HF_ICE_CABIN_LT_CPA,HF_INSTR_CPA_L,HF_INSTR_CPA_R,HF_EMERGENCYLIGHTINGSW,HF_ACU,HF_FUELCONTROLSW_R --workdir="D:\BP4.2formal\Model System Elements" 
+['-c', '--loglevel=INFO', '--outdir=D:\\C919Tools\\GeneExcelICD\\Output\\Test', '--hfname=HF_RIU_1,HF_TCP_3,HF_EMPC_EPS,HF_CARGO_FIRECNTRLPANEL,HF_ENGINEAPU_FIRECNTRLPANEL,HF_FUELOVERHEADPANEL,HF_L_ID,HF_R_ID,HF_L_NAISWITCH,HF_R_NAISWITCH,HF_WHCA,HF_GAGEASSY,HF_MCMW1,HF_MCMW2,HF_LGCU2,HF_AIR_COND_CPA,HF_DIM_CTRL_PWR,HF_ICE_CABIN_LT_CPA,HF_INSTR_CPA_L,HF_INSTR_CPA_R,HF_EMERGENCYLIGHTINGSW,HF_ACU,HF_FUELCONTROLSW_R', '--workdir=D:\\BP4.2formal\\Model System Elements']
+2016-05-05 17:58:53 [INFO_] Start the ICD import....
+wordir is D:\BP4.2formal\Model System Elements
+come in icdreadall
+D:\BP4.2formal\Model System Elements
+2016-05-05 17:59:07 [INFO_] Import XML ICD OK, ready to analysis it...
+2016-05-05 17:59:07 [INFO_] process rpxref...
+
+2016-05-05 17:59:09 [INFO_] analysis GW ref...
+
+2016-05-05 17:59:09 [INFO_] analysi guid ref...
+
+2016-05-05 17:59:10 [INFO_] Analysis vl ref...
+
+2016-05-05 17:59:10 [INFO_] Start to process HF_RIU_1 
+
+2016-05-05 17:59:10 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:10 [INFO_] Mark the Rp: L032_ADF_Frequency status to #, for that it connects a 429 word
+A429Channel
+A429Channel
+2016-05-05 17:59:10 [INFO_] Mark the Rp: L034_2_VOR_Act_Freq status to #, for that it connects a 429 word
+2016-05-05 17:59:10 [INFO_] Mark the Rp: L035_DME_Frequency status to #, for that it connects a 429 word
+2016-05-05 17:59:10 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:10 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:10 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:10 [INFO_] Analysis input signals...
+
+label is 35
+label is 34
+label is 21
+label is 21
+label is 21
+label is 260
+label is 21
+label is 21
+label is 21
+label is 21
+label is 150
+label is 150
+label is 260
+label is 150
+label is 150
+label is 260
+label is 260
+label is 21
+label is 21
+label is 21
+label is 150
+label is 21
+label is 21
+label is 21
+label is 21
+label is 304
+label is 304
+label is 233
+label is 233
+label is 233
+label is 21
+label is 21
+label is 21
+label is 312
+label is 260
+label is 233
+label is 233
+label is 233
+label is 32
+label is 310
+label is 260
+label is 260
+label is 21
+label is 21
+label is 232
+label is 232
+label is 232
+label is 260
+label is 312
+label is 21
+label is 21
+label is 310
+label is 260
+label is 260
+label is 21
+label is 21
+label is 260
+label is 311
+label is 150
+label is 260
+label is 232
+label is 232
+label is 232
+label is 311
+label is 21
+label is 304
+2016-05-05 17:59:10 [INFO_] Generate HF_RIU_1 excel...
+
+2016-05-05 17:59:33 [INFO_] Finish HF_RIU_1  generate
+
+
+
+2016-05-05 17:59:33 [INFO_] Start to process HF_TCP_3 
+
+2016-05-05 17:59:33 [INFO_] Analysis RPs ...
+
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+A429Channel
+2016-05-05 17:59:33 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:33 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:33 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:33 [INFO_] Analysis input signals...
+
+label is 7
+label is 7
+2016-05-05 17:59:33 [INFO_] Generate HF_TCP_3 excel...
+
+2016-05-05 17:59:34 [INFO_] Finish HF_TCP_3  generate
+
+
+
+2016-05-05 17:59:34 [INFO_] Start to process HF_EMPC_EPS 
+
+2016-05-05 17:59:34 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:34 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:34 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:34 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:34 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:34 [INFO_] Generate HF_EMPC_EPS excel...
+
+2016-05-05 17:59:37 [INFO_] Finish HF_EMPC_EPS  generate
+
+
+
+2016-05-05 17:59:37 [INFO_] Start to process HF_CARGO_FIRECNTRLPANEL 
+
+2016-05-05 17:59:37 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:37 [INFO_] Generate HF_CARGO_FIRECNTRLPANEL excel...
+
+2016-05-05 17:59:37 [INFO_] Finish HF_CARGO_FIRECNTRLPANEL  generate
+
+
+
+2016-05-05 17:59:37 [INFO_] Start to process HF_ENGINEAPU_FIRECNTRLPANEL 
+
+2016-05-05 17:59:37 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:37 [INFO_] Generate HF_ENGINEAPU_FIRECNTRLPANEL excel...
+
+2016-05-05 17:59:37 [INFO_] Finish HF_ENGINEAPU_FIRECNTRLPANEL  generate
+
+
+
+2016-05-05 17:59:37 [INFO_] Start to process HF_FUELOVERHEADPANEL 
+
+2016-05-05 17:59:37 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:37 [INFO_] Generate HF_FUELOVERHEADPANEL excel...
+
+2016-05-05 17:59:37 [INFO_] Finish HF_FUELOVERHEADPANEL  generate
+
+
+
+2016-05-05 17:59:37 [INFO_] Start to process HF_L_ID 
+
+2016-05-05 17:59:37 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:37 [INFO_] Generate HF_L_ID excel...
+
+2016-05-05 17:59:37 [INFO_] Finish HF_L_ID  generate
+
+
+
+2016-05-05 17:59:37 [INFO_] Start to process HF_R_ID 
+
+2016-05-05 17:59:37 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:37 [INFO_] Generate HF_R_ID excel...
+
+2016-05-05 17:59:37 [INFO_] Finish HF_R_ID  generate
+
+
+
+2016-05-05 17:59:37 [INFO_] Start to process HF_L_NAISWITCH 
+
+2016-05-05 17:59:37 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:37 [INFO_] Generate HF_L_NAISWITCH excel...
+
+2016-05-05 17:59:37 [INFO_] Finish HF_L_NAISWITCH  generate
+
+
+
+2016-05-05 17:59:37 [INFO_] Start to process HF_R_NAISWITCH 
+
+2016-05-05 17:59:37 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:37 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:37 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:37 [INFO_] Generate HF_R_NAISWITCH excel...
+
+2016-05-05 17:59:38 [INFO_] Finish HF_R_NAISWITCH  generate
+
+
+
+2016-05-05 17:59:38 [INFO_] Start to process HF_WHCA 
+
+2016-05-05 17:59:38 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:38 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:38 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:38 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:38 [INFO_] Analysis input signals...
+
+label is 275
+label is 275
+label is 41
+label is 41
+2016-05-05 17:59:38 [INFO_] Generate HF_WHCA excel...
+
+2016-05-05 17:59:39 [INFO_] Finish HF_WHCA  generate
+
+
+
+2016-05-05 17:59:39 [INFO_] Start to process HF_GAGEASSY 
+
+2016-05-05 17:59:39 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:39 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:39 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:39 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:39 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:39 [INFO_] Generate HF_GAGEASSY excel...
+
+2016-05-05 17:59:39 [INFO_] Finish HF_GAGEASSY  generate
+
+
+
+2016-05-05 17:59:39 [INFO_] Start to process HF_MCMW1 
+
+2016-05-05 17:59:39 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:39 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:39 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:39 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:39 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:39 [INFO_] Generate HF_MCMW1 excel...
+
+2016-05-05 17:59:40 [INFO_] Finish HF_MCMW1  generate
+
+
+
+2016-05-05 17:59:40 [INFO_] Start to process HF_MCMW2 
+
+2016-05-05 17:59:40 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:40 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:40 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:40 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:40 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:40 [INFO_] Generate HF_MCMW2 excel...
+
+2016-05-05 17:59:40 [INFO_] Finish HF_MCMW2  generate
+
+
+
+2016-05-05 17:59:40 [INFO_] Start to process HF_LGCU2 
+
+2016-05-05 17:59:40 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L126_OMS_Flight_Leg_Global_Abort_Flag status to #, for that it connects a 429 word
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L150_UTC_Time status to #, for that it connects a 429 word
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L174_PRESS_SYS2_T1A status to #, for that it connects a 429 word
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L206_Voted_Calibrated_Airspeed status to #, for that it connects a 429 word
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L260_UTC_Date status to #, for that it connects a 429 word
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L301_Aircraft_Reg_Number_C1_C2_C3 status to #, for that it connects a 429 word
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L302_Aircraft_Reg_Number_C4_C5_C6 status to #, for that it connects a 429 word
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L303_Aircraft_Reg_Number_C7_C8_C9 status to #, for that it connects a 429 word
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L002_LeftSideAverage_Wheelspeed status to #, for that it connects a 429 word
+2016-05-05 17:59:40 [INFO_] Mark the Rp: L003_RightSideAverag_Wheelspeed status to #, for that it connects a 429 word
+A429Channel
+A429Channel
+A429Channel
+2016-05-05 17:59:40 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:40 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:40 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:40 [INFO_] Analysis input signals...
+
+label is 2
+label is 150
+label is 301
+label is 174
+label is 260
+label is 206
+label is 126
+label is 303
+label is 3
+label is 302
+2016-05-05 17:59:40 [INFO_] Generate HF_LGCU2 excel...
+
+2016-05-05 17:59:44 [INFO_] Finish HF_LGCU2  generate
+
+
+
+2016-05-05 17:59:44 [INFO_] Start to process HF_AIR_COND_CPA 
+
+2016-05-05 17:59:44 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:44 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:44 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:44 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:44 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:44 [INFO_] Generate HF_AIR_COND_CPA excel...
+
+2016-05-05 17:59:46 [INFO_] Finish HF_AIR_COND_CPA  generate
+
+
+
+2016-05-05 17:59:46 [INFO_] Start to process HF_DIM_CTRL_PWR 
+
+2016-05-05 17:59:46 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:46 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:46 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:46 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:46 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:46 [INFO_] Generate HF_DIM_CTRL_PWR excel...
+
+2016-05-05 17:59:47 [INFO_] Finish HF_DIM_CTRL_PWR  generate
+
+
+
+2016-05-05 17:59:47 [INFO_] Start to process HF_ICE_CABIN_LT_CPA 
+
+2016-05-05 17:59:47 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:47 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:47 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:47 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:47 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:47 [INFO_] Generate HF_ICE_CABIN_LT_CPA excel...
+
+2016-05-05 17:59:48 [INFO_] Finish HF_ICE_CABIN_LT_CPA  generate
+
+
+
+2016-05-05 17:59:48 [INFO_] Start to process HF_INSTR_CPA_L 
+
+2016-05-05 17:59:48 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:48 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:48 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:48 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:48 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:48 [INFO_] Generate HF_INSTR_CPA_L excel...
+
+2016-05-05 17:59:49 [INFO_] Finish HF_INSTR_CPA_L  generate
+
+
+
+2016-05-05 17:59:49 [INFO_] Start to process HF_INSTR_CPA_R 
+
+2016-05-05 17:59:49 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:49 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:49 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:49 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:49 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:49 [INFO_] Generate HF_INSTR_CPA_R excel...
+
+2016-05-05 17:59:50 [INFO_] Finish HF_INSTR_CPA_R  generate
+
+
+
+2016-05-05 17:59:50 [INFO_] Start to process HF_EMERGENCYLIGHTINGSW 
+
+2016-05-05 17:59:50 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:50 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:50 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:50 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:50 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:50 [INFO_] Generate HF_EMERGENCYLIGHTINGSW excel...
+
+2016-05-05 17:59:50 [INFO_] Finish HF_EMERGENCYLIGHTINGSW  generate
+
+
+
+2016-05-05 17:59:50 [INFO_] Start to process HF_ACU 
+
+2016-05-05 17:59:50 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:50 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:50 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:50 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:50 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:50 [INFO_] Generate HF_ACU excel...
+
+2016-05-05 17:59:50 [INFO_] Finish HF_ACU  generate
+
+
+
+2016-05-05 17:59:50 [INFO_] Start to process HF_FUELCONTROLSW_R 
+
+2016-05-05 17:59:50 [INFO_] Analysis RPs ...
+
+2016-05-05 17:59:50 [INFO_] Analysis DPs ...
+
+2016-05-05 17:59:50 [INFO_] Analysis inputmessage..
+
+2016-05-05 17:59:50 [INFO_] Analysis outputmessage..
+
+2016-05-05 17:59:50 [INFO_] Analysis input signals...
+
+2016-05-05 17:59:50 [INFO_] Generate HF_FUELCONTROLSW_R excel...
+
+2016-05-05 17:59:50 [INFO_] Finish HF_FUELCONTROLSW_R  generate
+
+
+
+Generate Finish

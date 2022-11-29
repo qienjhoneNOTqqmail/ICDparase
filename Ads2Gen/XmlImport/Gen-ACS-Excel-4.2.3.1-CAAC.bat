@@ -1,0 +1,3 @@
+echo "Generate DS excel"
+C:\Python27\python D:\C919Tools\C919_ICD_Processor\XmlImport\icdimport_DS_LRU.py -c   --loglevel=INFO --outdir=D:\C919Tools\BP4.2.3.1_output\Excel --hfname=DLC_R4 --workdir="D:\BP4.2.3.1\Model System Elements"
+rem SM_I2C_L1,DLC_L1,HM_L1,FIDO_L1,SM_NOI2C_L2,DLC_L2,FIDO_L2,SM_NOI2C_L3,DLC_L3,FIDO_L3,SM_I2C_L4,DLC_L4,FIDO_L4,SM_I2C_R1,DLC_R1,HM_R1,FIDO_R1,SM_NOI2C_R2,DLC_R2,FIDO_R2,SM_NOI2C_R3,DLC_R3,FIDO_R3,SM_I2C_R4,DLC_R4,FIDO_R4

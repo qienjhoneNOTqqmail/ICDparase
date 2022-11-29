@@ -1,0 +1,1 @@
+C:\Python27\python D:\C919Tools\C919_ICD_Processor\Ads2Gen\ADS2CONFIG-EPS.py -c -m  --loglevel=INFO  --outdir=D:\C919Tools\BP4.2.2_output\ADS2\HFEPS --mode=stim --inputtype=Excel --hfname=HF_EPS_DATA_CONVERT_A,HF_EPS_DATA_CONVERT_B --workdir="D:\C919Tools\BP4.2.2_output\Excel"

@@ -1,0 +1,12 @@
+2019-03-27 11:14:11 [INFO_] Start the Ads2 configuration files generate....
+Coming in Analysis Excel...
+Now Processing HF_IDULEFTINBOARD
+Leaving Analysis Excel...
+['RGW05_NonA664_In']
+RGW05_NonA664_In
+D:\test_equipment_configuration\C919_ICD_Processor\Ads2Gen
+come 2
+come 2
+come 2
+come 2
+ADS2 CFG Generate OK

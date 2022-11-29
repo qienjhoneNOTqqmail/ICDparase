@@ -1,0 +1,1 @@
+C:\Python27\python D:\workspace\ADS2\Ads2_6.2_2\C919_ICD_Processor\Ads2Gen\ADS2CONFIG.py -c -m  --loglevel=INFO  --outdir=D:\workspace\ADS2\Ads2_6.2_2\ICD_output\BP6.2-CFG2\Ads2\ATP --mode=stim --inputtype=Excel --hfname=HF_IDULEFTOUTBOARD --workdir="D:\workspace\ADS2\Ads2_6.2_2\ICD_output\BP6.2-CFG2\Excel\ATP"

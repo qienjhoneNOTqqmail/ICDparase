@@ -1,0 +1,1 @@
+C:\Python27\python D:\C919Tools\C919_ICD_Processor\XmlImport\icdimport_DS_LRU.py -c   --loglevel=INFO --outdir=D:\C919Tools\GeneExcelICD\Output\Test --hfname=APP_FMS_TUNE_2,APP_FMS_TUNE_1,APP_FMS_CORE_2,APP_FMS_CORE_1,APP_FMS_NAV_1,APP_FMS_NAV_2,APP_FMS_DATALINK_1,APP_FMS_DATALINK_2,APP_FMS_GUIDANCE_1,APP_FMS_GUIDANCE_2 --workdir="D:\BP4.2formal\Model System Elements"

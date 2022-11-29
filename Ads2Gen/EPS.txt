@@ -1,0 +1,187 @@
+
+D:\C919Tools\C919_ICD_Processor\Ads2Gen>C:\Python27\python D:\C919Tools\C919_ICD_Processor\Ads2Gen\ADS2CONFIG-EPS.py -c -m  --loglevel=INFO  --outdir=D:\C919Tools\BP4.2.2_output\ADS2\HFEPS --mode=stim --inputtype=Excel --hfname=HF_EPS_DATA_CONVERT_A,HF_EPS_DATA_CONVERT_B --workdir="D:\C919Tools\BP4.2.2_output\Excel" 
+2016-07-26 10:41:25 [INFO_] Start the Ads2 configuration files generate....
+Coming in Analysis Excel...
+Now Processing HF_EPS_DATA_CONVERT_A
+2016-07-26 10:41:26 [ERROR] Message: HF_EPS_DATA_CONVERT_A.MSG_EPS_DATA_CON_OMS_DATA has no vlid, skip
+&&&&&&&&&&&&&&& AFTBFAN1_A429Word_113_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN1_POWER_PHA_A429Word_75_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN1_POWER_PHB_A429Word_75_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN1_POWER_PHC_A429Word_75_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDBFAN1_POWER_PHA_A429Word_74_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDBFAN1_POWER_PHB_A429Word_74_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDBFAN1_POWER_PHC_A429Word_74_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDBFAN2_CONT_A429Word_122_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN1_POWER_PHA_A429Word_72_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN1_POWER_PHB_A429Word_72_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN1_POWER_PHC_A429Word_72_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWD_BBSOV_RELAY_A429Word_107_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWD_GAL_HTR_POWER_PHA_A429Word_77_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWD_GAL_HTR_POWER_PHB_A429Word_77_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWD_GAL_HTR_POWER_PHC_A429Word_77_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& IASC2A_A429Word_71_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& LEFT_FOOT_HEATER_PHA_A429Word_101_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& LEFT_FOOT_HEATER_PHB_A429Word_101_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& L_RAIA_A429Word_105_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& L_TAPRV_A429Word_103_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RFAN1_CONT_A429Word_123_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RFAN1_CTRL_A429Word_115_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& ABV1_A429Word_51_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& HYD_EMP3A_CONT_A429Word_52_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& HYD_EMP3B_CONT_A429Word_52_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& PTU_A429Word_51_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTBFAN2_A429Word_114_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN2_POWER_PHA_A429Word_76_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN2_POWER_PHB_A429Word_76_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN2_POWER_PHC_A429Word_76_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFT_BBSOV_RELAY_A429Word_110_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFT_GAL_HTR_POWER_PHA_A429Word_100_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFT_GAL_HTR_POWER_PHB_A429Word_100_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFT_GAL_HTR_POWER_PHC_A429Word_100_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN2_POWER_PHA_A429Word_73_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN2_POWER_PHB_A429Word_73_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN2_POWER_PHC_A429Word_73_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& IASC1B_A429Word_70_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RFAN2_CONT_A429Word_124_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RFAN2_CTRL_A429Word_116_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RIGHT_FOOT_HEATER_PHA_A429Word_102_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RIGHT_FOOT_HEATER_PHB_A429Word_102_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& R_RAIA_A429Word_106_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& R_TAPRV_A429Word_104_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& ABV2_A429Word_51_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& ABV3_A429Word_51_3.LOAD_CURRENT
+&&&&&&&&&&&&&&& HYD_EMP1B_CONT_A429Word_52_0.LOAD_CURRENT
+2016-07-26 10:41:26 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_A.MSG_EPS_DATA_CON_OMS_DATA
+2016-07-26 10:41:26 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_A.MSG_EPS_DATA_CON_OMS_DATA
+Now Processing HF_EPS_DATA_CONVERT_B
+2016-07-26 10:41:27 [ERROR] Message: HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS has no vlid, skip
+2016-07-26 10:41:27 [ERROR] Message: HF_EPS_DATA_CONVERT_B.MSG_EPS_DATA_CON_OMS_DATA has no vlid, skip
+&&&&&&&&&&&&&&& AFTBFAN1_A429Word_113_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN1_POWER_PHA_A429Word_75_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN1_POWER_PHB_A429Word_75_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN1_POWER_PHC_A429Word_75_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDBFAN1_POWER_PHA_A429Word_74_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDBFAN1_POWER_PHB_A429Word_74_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDBFAN1_POWER_PHC_A429Word_74_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDBFAN2_CONT_A429Word_122_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN1_POWER_PHA_A429Word_72_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN1_POWER_PHB_A429Word_72_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN1_POWER_PHC_A429Word_72_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWD_BBSOV_RELAY_A429Word_107_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWD_GAL_HTR_POWER_PHA_A429Word_77_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWD_GAL_HTR_POWER_PHB_A429Word_77_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWD_GAL_HTR_POWER_PHC_A429Word_77_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& IASC2A_A429Word_71_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& LEFT_FOOT_HEATER_PHA_A429Word_101_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& LEFT_FOOT_HEATER_PHB_A429Word_101_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& L_RAIA_A429Word_105_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& L_TAPRV_A429Word_103_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RFAN1_CONT_A429Word_123_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RFAN1_CTRL_A429Word_115_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& ABV1_A429Word_51_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& HYD_EMP3A_CONT_A429Word_52_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& HYD_EMP3B_CONT_A429Word_52_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& PTU_A429Word_51_0.LOAD_CURRENT
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.Local_A429_Data_To_A664_PPS
+&&&&&&&&&&&&&&& AFTBFAN2_A429Word_114_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN2_POWER_PHA_A429Word_76_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN2_POWER_PHB_A429Word_76_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFTEFAN2_POWER_PHC_A429Word_76_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFT_BBSOV_RELAY_A429Word_110_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFT_GAL_HTR_POWER_PHA_A429Word_100_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFT_GAL_HTR_POWER_PHB_A429Word_100_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& AFT_GAL_HTR_POWER_PHC_A429Word_100_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN2_POWER_PHA_A429Word_73_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN2_POWER_PHB_A429Word_73_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& FWDEFAN2_POWER_PHC_A429Word_73_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& IASC1B_A429Word_70_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RFAN2_CONT_A429Word_124_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RFAN2_CTRL_A429Word_116_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RIGHT_FOOT_HEATER_PHA_A429Word_102_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& RIGHT_FOOT_HEATER_PHB_A429Word_102_1.LOAD_CURRENT
+&&&&&&&&&&&&&&& R_RAIA_A429Word_106_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& R_TAPRV_A429Word_104_0.LOAD_CURRENT
+&&&&&&&&&&&&&&& ABV2_A429Word_51_2.LOAD_CURRENT
+&&&&&&&&&&&&&&& ABV3_A429Word_51_3.LOAD_CURRENT
+&&&&&&&&&&&&&&& HYD_EMP1B_CONT_A429Word_52_0.LOAD_CURRENT
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.MSG_EPS_DATA_CON_OMS_DATA
+2016-07-26 10:41:27 [ERROR] the signal can not found msg HF_EPS_DATA_CONVERT_B.MSG_EPS_DATA_CON_OMS_DATA
+Leaving Analysis Excel...
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_1A 
+message name is HF_RPDU_UP_1B 
+message name is HF_RPDU_UP_2B 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2A 
+message name is HF_RPDU_UP_2A 
+LRU: None len of devlist is 1
+ADS2 CFG Generate OK

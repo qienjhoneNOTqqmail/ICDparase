@@ -1,0 +1,2 @@
+export PYTHONPATH=`dirname $PWD`
+

@@ -1,0 +1,475 @@
+VERSION_CONTROL {
+    FILE_NAME = "$RCSfile: cvsheader.inc,v $";
+    REVISION = "$Revision: 1.2 $";
+    AUTHOR = "$Author: bad $";
+    DATE = "$Date: 2006/07/27 12:58:00 $";
+}
+
+CVT {
+    POINT RAW-RX1 = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "byte";
+        DATASIZE = "1";
+        ELEMENTS = "152";
+        VARLENGTH = "1";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-RX1-CRC = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "uint32";
+        DATASIZE = "1";
+        ELEMENTS = "1";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-RX1-CRC-ERR = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "uint32";
+        DATASIZE = "1";
+        ELEMENTS = "1";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-RX1-CRC-EXP = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "uint32";
+        DATASIZE = "1";
+        ELEMENTS = "1";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-RX1-FC = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "uint32";
+        DATASIZE = "1";
+        ELEMENTS = "1";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-RX1-FC-ERR = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "uint32";
+        DATASIZE = "1";
+        ELEMENTS = "1";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-RX1-FS = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "uint32";
+        DATASIZE = "1";
+        ELEMENTS = "1";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-RX2 = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "byte";
+        DATASIZE = "1";
+        ELEMENTS = "128";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-RX3 = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "byte";
+        DATASIZE = "1";
+        ELEMENTS = "128";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-TX1 = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "byte";
+        DATASIZE = "1";
+        ELEMENTS = "128";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-TX2 = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "byte";
+        DATASIZE = "1";
+        ELEMENTS = "128";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-TX2-CRC = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "uint32";
+        DATASIZE = "1";
+        ELEMENTS = "1";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-TX2-FC = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "uint32";
+        DATASIZE = "1";
+        ELEMENTS = "1";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-TX2-FS = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "uint32";
+        DATASIZE = "1";
+        ELEMENTS = "1";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+    POINT RAW-TX3 = {
+        DOCUMENTATION = "No documentation about this entry.";
+        CHANNELMODE = "SAMPLING";
+        DESCRIPTION = "";
+        MESSAGETYPE = "";
+        UNIT = "none";
+        FORMAT = "";
+        DATATYPE = "byte";
+        DATASIZE = "1";
+        ELEMENTS = "260";
+        VARLENGTH = "0";
+        FIFOLENGTH = "1";
+        DEFAULTVALUE = "";
+        MINVALUE = "0";
+        MAXVALUE = "0";
+        VALUEMAP = {
+        }
+
+        ERRINJECT_PUT = "0";
+        ERRINJECT_GET = "0";
+        SAMPLE_ON_REQUEST = "0";
+        EXTID = "0";
+        DISCARD_OOR = "0";
+        ATOMIC = "0";
+        GETHANDLER = "";
+        PUTHANDLER = "";
+        ALIASLIST = {
+        }
+
+    }
+
+}
+

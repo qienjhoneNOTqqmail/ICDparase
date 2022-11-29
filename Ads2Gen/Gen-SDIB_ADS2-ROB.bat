@@ -1,0 +1,1 @@
+C:\Python27\python D:\C919Tools\C919_ICD_Processor\Ads2Gen\ADS2CONFIG.py -c -m  --loglevel=INFO  --outdir=D:\C919Tools\BP4.2.3.1_output\ADS2\SDIB_ROB --mode=stim --inputtype=Excel --hfname=HF_IDURIGHTOUTBOARD --workdir="D:\C919Tools\BP4.2.3.1_output\Excel"
